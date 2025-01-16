@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+        }
+        .folder{
+            height:500px ;
+        }
+    </style>
+
+    <div>
+        <a href="#"><img class="folder" src="square poster/UI:UX.png" alt=""></a>
+        <a href="#"></a><img class="folder" src="https://assets.adobe.com/id/urn:aaid:sc:AP:a1daf7c8-6b51-44d8-9b67-0da95f7eb80f?view=difile&referer=https://www.adobe.com/files/id/urn:aaid:sc:AP:a1b9adbb-c003-47b0-8430-bae4fff56652?view=difolder" alt=""></a>
+        <a href="#"></a><img class="folder" src="https://assets.adobe.com/id/urn:aaid:sc:AP:a98239e0-ae6f-4709-a075-850396cdce7a?view=difile&referer=https://www.adobe.com/files/id/urn:aaid:sc:AP:a1b9adbb-c003-47b0-8430-bae4fff56652?view=difolder" alt=""></a>
+        <a href="#"></a><img class="folder" src="https://assets.adobe.com/id/urn:aaid:sc:AP:42f67e3f-14f0-4ed7-ba7b-550e48a07be2?view=difile&referer=https://www.adobe.com/files/id/urn:aaid:sc:AP:a1b9adbb-c003-47b0-8430-bae4fff56652?view=difolder" alt=""></a>
+        <a href="#"></a><img class="folder" src="https://assets.adobe.com/id/urn:aaid:sc:AP:4822df5a-ef4c-49d8-80f4-b99f29130743?view=difile&locale=en&promoid=ZSV7DZTC&product=Creative%20Cloud%20Desktop&product-version=6.4.0.361&mv=product&mv2=accc#token_type=bearer&expires_in=86399996" alt=""></a>
+        <a href="#"></a><img class="folder" src="https://assets.adobe.com/id/urn:aaid:sc:AP:67070a1a-8263-4413-a345-9d16f240ceb1?view=difile&referer=https://www.adobe.com/files/id/urn:aaid:sc:AP:a1b9adbb-c003-47b0-8430-bae4fff56652?view=difolder" alt=""></a>
+    </div>
+
+</body>
+</html>
