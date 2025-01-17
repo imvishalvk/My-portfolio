@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: #F9E636;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.img1{
+    height: 50rem;
+    margin: auto;
+}
+.img2{
+    height: 30rem;
+    margin:auto;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: 20px;
+}
+.small{
+    margin-top: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.smallimg{
+    height: 25rem;
+    margin: auto;
+}
