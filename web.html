@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            color: #F9E636;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .folder{
+            height:500px ;
+        }
+        .containers{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px; /* Space between images */
+            padding: 20px;
+        }
+        .hero{
+            height: 450px;
+            display: flex;
+            margin: auto;
+        }
+        .hero1{
+            height: 600px;
+            display: flex;
+            margin: auto;
+        }
+        .headtext{
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            margin: 3rem;
+        }
+        .clients{
+            height: 15rem;
+            background-color: rgb(178, 175, 172);
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .climg{
+            height: 7rem;
+        }
+        .contact{
+            margin-top: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .contact-left{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+        }
+        .contact-left-title{
+            display: flex;
+            height: 0;
+            flex-direction: column;
+            margin: auto;
+            
+        }
+        .contact-left-title h2{
+            font-size: 8rem;
+            font-weight: 600;
+            margin: 0;
+            align-items: center;
+            margin: auto;
+            opacity: 40%;
+            height: 0;
+            color: #525252;
+        }
+        .contact-left-title h1{
+            font-size: 3rem;
+            font-weight: 600;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .contact-inputs{
+            background-color: #8a8a8a;
+            width: 450px;
+            height: 50px;
+            outline: none;
+            padding: 500;
+            
+            font-size: 15px;
+            padding-left: 15px;
+            border-radius: 20px;
+        }
+        .contact-left textarea{
+            height: 80px;
+            padding: 15px;
+            padding-right: 0;
+            background-color: #8a8a8a;
+            
+            outline: none;
+        }
+        .contact-inputs:focus{
+            border: 2px solid #ff7629;
+        }
+        .contact-inputs::placeholder{
+            color: black;
+        }
+        .contact-left button{
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: wheat;
+            gap: 10px;
+            border: none;
+            background: linear-gradient(270deg, #ff7629,#fa6d86);
+            cursor: pointer;
+        }
+        #overlay {
+    z-index:100;
+}
+.over{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.conimg{
+    height: 250px;
+    margin: auto;
+}
+.fill{
+    margin-left: 20px;
+}
+.folder:hover {
+  transform: scale(1.05);
+transition: transform 0.3s ease-in-out; 
+}
+.vl {
+  border-left: 6px solid black;
+  height: 10rem;
+  border-radius: 20px;
+}
+    </style>
+    <head>
+        <img class="hero"  src="my pos.png" alt="">
+    </head>
+    <h1 class="headtext">Expertise in Tools</h1>
+    <div>
+        <img class="hero1" src="Tools i know.png" alt="">
+    </div>
+
+    <div class="containers">
+        <a href="#"><img class="folder" src="square poster/UI:UX.png" alt=""></a>
+        <a href="#"><img class="folder" src="square poster/Logo Design.png" alt=""></a>
+        <a href="#"><img class="folder" src="square poster/Social.png" alt=""></a>
+        <a href="#"><img class="folder" src="square poster/Video Editing.png" alt=""></a>
+        <a href="#"><img class="folder" src="square poster/Graphic Design.png" alt=""></a>
+        <a href="#"><img class="folder" src="square poster/Website.png" alt=""></a>
+    </div>
+
+    <div class="clients">
+        <img class="climg" src="kypp black.png" alt=""><div class="vl"></div>
+        <img class="climg" src="LOGIK.png" alt=""><div class="vl"></div>
+        <img class="climg" src="Badigaddi.png" alt=""><div class="vl"></div>
+        <img class="climg" src="otmv.png" alt="">
+    </div>
+    <div class="over">
+    <div class="contact-left-title">
+        <div id='overlay' class="contact-left-title"><h1>GET IN TOUCH</h1></div>
+        <h2>CONTACT</h2>
+    </div>
+</div>
+    <div class="contact">
+        <div>
+            <img class="conimg" src="ask.png" alt="">
+            <h1 class="headtext">Let's talk</h1>
+        </div>
+<div class="fill">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <input type="hidden" name="access_key" value="e17e4e74-6599-45f3-b40b-ea95d9f026f7">
+        <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+        <input type="Email" name="email" placeholder="Your Email" class="contact-inputs" required>
+        <input type="number" name="number" placeholder="Your Conatact Number" class="contact-inputs" required>
+        <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+        <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>    
+    </form>
+        <div class="contact-right">
+        </div>
+</div>
+        <div>
+            <img class="conimg" src="choose.png" alt="">
+            <h1 class="headtext">Choose best</h1>
+        </div>
+    </div>
+</body>
+</html>
