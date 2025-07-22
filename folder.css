@@ -9,7 +9,6 @@ body{
     justify-content:space-between;
     align-items: center;
     margin: auto;
-
     padding: 20px;
     box-shadow: rgb(255, 255, 255) 0px 25px 20px -20px;
 }
@@ -56,4 +55,9 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
+}
+.video{
+    height: 40px;
+    display: flex;
+    padding: 20px;
 }

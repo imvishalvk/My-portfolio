@@ -1,8 +1,8 @@
 body{
-            background-color: black;
+            background-color: black !important;
             margin: 0;
             padding: 0;
-            color: #F9E636;
+            color: #F9E636 !important;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         .folder{
