@@ -8,6 +8,7 @@ body{
         .folder{
             height:500px ;
         }
+
         .containers{
             display: flex;
             flex-wrap: wrap;
@@ -138,3 +139,27 @@ transition: transform 0.3s ease-in-out;
   height: 10rem;
   border-radius: 20px;
 }
+
+       @media only screen and (max-width: 900px) {
+  .folder{
+    height: 200px;
+  }
+  .hero{
+            height: 180px;
+            display: flex;
+            margin: auto;
+            width: auto;
+        }
+        .hero1{
+            height: 250px;
+        }
+        .clients{
+            height: 5rem;
+        }
+        .climg{
+            height: 2rem;
+        }
+        .non{
+            display: none;
+        }
+  }

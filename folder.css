@@ -61,3 +61,33 @@ body{
     display: flex;
     padding: 20px;
 }
+.logo{
+    height: 400px;
+    padding: 50px;
+    width: auto;
+    margin: auto;
+}
+.logos{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.soel{
+    padding: 20px 0 20px 0;
+    height: 200px;
+}
+@media only screen and (max-width: 900px) {
+  .logos{
+    display: grid;
+    justify-content: center;
+  }
+  .heading{
+    justify-content: center;
+  }
+  .logo{
+    height:200px;
+  }
+  .soel{
+    height: 120px;
+  }
+}
